@@ -7,5 +7,5 @@ func add(x int, y int) int {
 }
 
 func main() {
-	fmt.Println(add(52, 13))
+	fmt.Println(add(62, 13))
 }
