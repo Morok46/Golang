@@ -4,7 +4,10 @@ import "fmt"
 
 // Арифметические и логические операции
 // && (конъюнкция, логическое умножение)
-//|| (дизъюнкция, логическое сложение)
+// Возвращает true, если оба операнда не равны false. Возвращает false, если хотя бы один операнд равен false.
+// || (дизъюнкция, логическое сложение)
+// Возвращает true, если хотя бы один операнд не равен false. Возвращает false, если оба операнда равны false.
+// != (Операция "не равно")
 
 func main() {
 	var (
@@ -36,30 +39,5 @@ func main() {
 	)
 
 	fmt.Println(a, b, c, d, e)
-}
-*/
-
-/*
-// Пременные
-func main() {
-	//var Hello string
-	//Hello = "Hi all"
-
-	//var Hello string = "Hi all"
-
-	var (
-		Name string = "Serg"
-		Age  int    = 22
-	)
-	//Hello := "Hay u"
-	fmt.Println(Name)
-	fmt.Println(Age)
-}
-*/
-
-/*
-// Приветствие
-func main() {
-	fmt.Println("Hello Go! Test Git 4")
 }
 */
